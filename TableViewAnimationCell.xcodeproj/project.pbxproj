@@ -12,6 +12,8 @@
 		05865ED5221AA57D00E33ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05865ED3221AA57D00E33ED3 /* Main.storyboard */; };
 		05865ED7221AA57E00E33ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05865ED6221AA57E00E33ED3 /* Assets.xcassets */; };
 		05865EDA221AA57E00E33ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05865ED8221AA57E00E33ED3 /* LaunchScreen.storyboard */; };
+		05865EE2221AA5E900E33ED3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05865EE1221AA5E900E33ED3 /* TableViewController.swift */; };
+		05865EE4221AA62200E33ED3 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05865EE3221AA62200E33ED3 /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		05865ED6221AA57E00E33ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05865ED9221AA57E00E33ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05865EDB221AA57E00E33ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05865EE1221AA5E900E33ED3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		05865EE3221AA62200E33ED3 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				05865ED6221AA57E00E33ED3 /* Assets.xcassets */,
 				05865ED8221AA57E00E33ED3 /* LaunchScreen.storyboard */,
 				05865EDB221AA57E00E33ED3 /* Info.plist */,
+				05865EE1221AA5E900E33ED3 /* TableViewController.swift */,
+				05865EE3221AA62200E33ED3 /* UITableView+Ext.swift */,
 			);
 			path = TableViewAnimationCell;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				05865ED2221AA57D00E33ED3 /* ViewController.swift in Sources */,
+				05865EE4221AA62200E33ED3 /* UITableView+Ext.swift in Sources */,
+				05865EE2221AA5E900E33ED3 /* TableViewController.swift in Sources */,
 				05865ED0221AA57D00E33ED3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
